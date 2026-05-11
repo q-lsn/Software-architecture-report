@@ -103,7 +103,6 @@ Bao gồm các module nghiệp vụ cốt lõi của hệ thống:
     \item \textit{Payment Module}: xử lý thanh toán và giao dịch.
     \item \textit{Inventory Module}: quản lý nguyên liệu và tồn kho.
     \item \textit{Promotion Module}: quản lý khuyến mãi và giảm giá.
-    \item \textit{Seating Module}: quản lý bàn và đặt chỗ.
     \item \textit{Reporting Module}: tổng hợp báo cáo và thống kê doanh thu.
 \end{itemize}
 
@@ -574,7 +573,6 @@ Chứa các artifact cần thiết để chạy hệ thống:
     \item \textit{application.properties}: file cấu hình hệ thống.
     \item \textit{logback.xml}: cấu hình logging.
     \item \textit{deployment scripts}: script phục vụ triển khai hệ thống.
-    \item \textit{static content}: tài nguyên tĩnh như HTML, CSS, JavaScript và hình ảnh.
 \end{itemize}
 
 \textbf{File Management System}:  
@@ -640,17 +638,18 @@ Người dùng truy cập frontend trên Vercel thông qua HTTPS, frontend gửi
 
 \subsubsection{Work Assignment Style}
 
-% \begin{figure}[H]
-%     \centering
-%     \includegraphics[width=0.95\linewidth]{image/work-assignment-style.png}
-%     \caption{Work Assignment Style của hệ thống}
-%     \label{fig:work-assignment-style}
-% \end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\linewidth]{image/work-assignment-style.png}
+    \caption{Work Assignment Style của hệ thống}
+    \label{fig:work-assignment-style}
+\end{figure}
 
 Work Assignment Style mô tả việc phân bổ trách nhiệm phát triển các module và nhiệm vụ trong hệ thống cho các nhóm phát triển tương ứng.
 
 Hệ thống được phát triển thông qua nhiều nhóm khác nhau bao gồm:
 \begin{itemize}
+    \item BA Team
     \item Backend Team
     \item Frontend Team
     \item QA Team
@@ -681,6 +680,13 @@ Mỗi task được phân công:
     \item Trạng thái thực hiện.
     \item Assignee chịu trách nhiệm trực tiếp.
 \end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\linewidth]{image/gantt-chart.png}
+    \caption{Gantt Chart mô tả timeline phát triển hệ thống}
+    \label{fig:work-assignment-style}
+\end{figure}
 
 Ngoài ra, Work Assignment Style còn sử dụng Gantt Chart để mô tả timeline phát triển hệ thống từ tuần 1 đến tuần 8.  
 Gantt Chart giúp thể hiện:
